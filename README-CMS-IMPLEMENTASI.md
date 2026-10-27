@@ -53,3 +53,6 @@
 - Sebelum peluncuran, review dan merge perubahan kode ke `main` melalui PR. Sesudah integrasi produksi siap, ubah backend CMS ke `main` dalam perubahan terpisah dan terencana.
 - Jangan masukkan Client Secret OAuth ke repositori, HTML, atau `admin/config.yml`.
 - Build ini memproses Markdown dasar: paragraf, heading, daftar, bold, italic, inline code, dan tautan HTTP(S). Untuk tabel, gambar inline, atau fitur Markdown lebih kompleks, perlu penambahan parser yang sesuai.
+
+## Halaman detail Notes dan Projects
+Lihat `README-CMS-HALAMAN-DETAIL.md` untuk pembaruan generator yang membuat halaman detail per konten, serta langkah penerapan di branch produksi.

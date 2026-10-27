@@ -7,7 +7,7 @@ backend:
   base_url: https://api.netlify.com
   auth_endpoint: auth
 
-# Drafts are kept in editorial branches/PRs; they do not go live until merged.
+# CMS publishes directly to the production branch after login.
 media_folder: "public/uploads"
 public_folder: "/uploads"
 site_url: https://byzamil.web.id
