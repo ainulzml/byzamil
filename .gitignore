@@ -1,0 +1,12 @@
+cat > .gitignore <<'EOF'
+# Hasil build Netlify — dibuat ulang oleh scripts/build.mjs
+dist/
+
+# Dependencies dan file sementara
+node_modules/
+
+# File sistem operasi dan editor
+.DS_Store
+Thumbs.db
+.vscode/
+EOF
