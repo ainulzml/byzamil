@@ -33,3 +33,6 @@ Jika opsi GitHub OAuth provider tidak tersedia pada pengaturan situs Netlify kam
 - CMS belum mengelola Home, About, Contact, atau metadata SEO.
 - Konten Notes dan Projects belum terhubung ke render halaman publik.
 - Belum ada artikel contoh yang dipublikasikan.
+
+## Pembaruan implementasi
+Lihat `README-CMS-IMPLEMENTASI.md` untuk langkah integrasi build, publikasi langsung di branch `cms-foundation`, dan pengujian Netlify.
