@@ -8,7 +8,6 @@ backend:
   auth_endpoint: auth
 
 # Drafts are kept in editorial branches/PRs; they do not go live until merged.
-publish_mode: editorial_workflow
 media_folder: "public/uploads"
 public_folder: "/uploads"
 site_url: https://byzamil.web.id
