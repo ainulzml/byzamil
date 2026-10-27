@@ -41,3 +41,11 @@
 - Parser Markdown bawaan tetap ringan dan tanpa dependency. Mendukung heading, paragraf, daftar, bold, italic, inline code, serta tautan HTTP(S). Tabel Markdown, blockquote, gambar inline Markdown, dan fitur Markdown lanjutan belum didukung oleh parser ini.
 - File CMS Notes menggunakan slug dari judul untuk URL, sedangkan Projects menggunakan nama file/slug CMS. Jika judul Notes berubah, URL detail dapat berubah; pertimbangkan field slug permanen/redirect sebelum mengubah judul artikel yang sudah banyak dibagikan.
 - Halaman detail menyertakan metadata Open Graph dasar. URL canonical eksplisit dan sitemap dinamis belum ditambahkan pada perubahan ini.
+
+
+## Revisi layout v5 (27 Oktober 2026)
+
+- Mockup asli halaman Notes dan Projects tetap dipertahankan.
+- Gambar sampul di kartu CMS memakai tinggi tetap dan `object-fit: cover`, sehingga rasio gambar unggahan tidak mengubah tinggi kartu/halaman daftar.
+- Kartu tanpa gambar tetap memiliki area visual dengan ukuran konsisten.
+- Footer halaman detail memakai wrapper terpisah dan jarak eksplisit antara merek `byzamil` dan tautan “Lihat semua Notes/Projects”.

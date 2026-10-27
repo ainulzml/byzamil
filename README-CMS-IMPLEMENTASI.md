@@ -56,3 +56,11 @@
 
 ## Halaman detail Notes dan Projects
 Lihat `README-CMS-HALAMAN-DETAIL.md` untuk pembaruan generator yang membuat halaman detail per konten, serta langkah penerapan di branch produksi.
+
+
+## Revisi layout v5 (27 Oktober 2026)
+
+- Mockup asli halaman Notes dan Projects tetap dipertahankan.
+- Gambar sampul di kartu CMS memakai tinggi tetap dan `object-fit: cover`, sehingga rasio gambar unggahan tidak mengubah tinggi kartu/halaman daftar.
+- Kartu tanpa gambar tetap memiliki area visual dengan ukuran konsisten.
+- Footer halaman detail memakai wrapper terpisah dan jarak eksplisit antara merek `byzamil` dan tautan “Lihat semua Notes/Projects”.
