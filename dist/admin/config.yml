@@ -1,0 +1,57 @@
+# Decap CMS — byzamil
+# Auth uses the Netlify OAuth provider for GitHub. This is NOT Git Gateway.
+backend:
+  name: github
+  repo: ainulzml/byzamil
+  branch: cms-foundation
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+# Drafts are kept in editorial branches/PRs; they do not go live until merged.
+media_folder: "public/uploads"
+public_folder: "/uploads"
+site_url: https://byzamil.web.id
+logo_url: /assets/favicon.svg
+locale: id
+show_preview_links: true
+
+collections:
+  - name: "notes"
+    label: "Notes"
+    label_singular: "Note"
+    folder: "content/notes"
+    create: true
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    summary: "{{title}} — {{date | date('DD MMM YYYY')}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Ringkasan", name: "description", widget: "text" }
+      - { label: "Tanggal", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD MMM YYYY", time_format: false }
+      - { label: "Kategori", name: "category", widget: "string" }
+      - { label: "Gambar sampul", name: "cover", widget: "image", required: false }
+      - { label: "Isi", name: "body", widget: "markdown" }
+
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
+    folder: "content/projects"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    summary: "{{title}} — {{status}}"
+    sortable_fields: ["title", "date"]
+    fields:
+      - { label: "Nama proyek", name: "title", widget: "string" }
+      - { label: "Ringkasan", name: "description", widget: "text" }
+      - { label: "Tanggal", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD MMM YYYY", time_format: false }
+      - { label: "Kategori", name: "category", widget: "select", options: ["digital", "strategy", "experiments"] }
+      - { label: "Status", name: "status", widget: "select", options: ["ongoing", "completed", "paused"] }
+      - { label: "Tautan proyek", name: "project_url", widget: "string", required: false }
+      - { label: "Gambar", name: "cover", widget: "image", required: false }
+      - { label: "Isi dokumentasi", name: "body", widget: "markdown" }
