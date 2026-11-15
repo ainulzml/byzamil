@@ -32,4 +32,6 @@ Status Pengembangan
 
 Proyek masih dikembangkan secara bertahap. Ratib al-Haddad sudah tersedia sebagai draf dan menunggu tashih pengurus, sementara konten Maulid Diba' masih dalam penyiapan.
 
-Proyek kedepannya akan diintegrasikan dengan koperasi yang saat ini statusnya masih dalam proses pembentukan badan hukum
+Proyek kedepannya akan diintegrasikan dengan koperasi yang saat ini statusnya masih dalam proses pembentukan badan hukum.
+
+Proyek kedepannya akan diintergrisikan dengan CMS untuk mempermudah pengelolaan konten website
