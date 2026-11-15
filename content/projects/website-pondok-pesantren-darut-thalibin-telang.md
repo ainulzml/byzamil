@@ -30,8 +30,6 @@ Website dibangun menggunakan HTML, CSS, dan JavaScript tanpa framework. Proses b
 
 Status Pengembangan
 
-Proyek masih dikembangkan secara bertahap. Ratib al-Haddad sudah tersedia sebagai draf dan menunggu tashih pengurus, sementara konten Maulid Diba' masih dalam penyiapan.
-
-Proyek kedepannya akan diintegrasikan dengan koperasi yang saat ini statusnya masih dalam proses pembentukan badan hukum.
-
-Proyek kedepannya akan diintergrisikan dengan CMS untuk mempermudah pengelolaan konten website
+1. Proyek masih dikembangkan secara bertahap. Ratib al-Haddad sudah tersedia sebagai draf dan menunggu tashih pengurus, sementara konten Maulid Diba' masih dalam penyiapan.
+2. Proyek kedepannya akan diintegrasikan dengan koperasi yang saat ini statusnya masih dalam proses pembentukan badan hukum.
+3. Proyek kedepannya akan diintergrisikan dengan CMS untuk mempermudah pengelolaan konten website
