@@ -18,6 +18,8 @@ function copySite(source, target, relative = '') {
 copySite(ROOT, OUT);
 const uploadSource = path.join(ROOT, 'public', 'uploads');
 if (fs.existsSync(uploadSource)) fs.cpSync(uploadSource, path.join(OUT, 'uploads'), { recursive: true });
+const headersSource = path.join(ROOT, 'public', '_headers');
+if (fs.existsSync(headersSource)) fs.copyFileSync(headersSource, path.join(OUT, '_headers'));
 
 function escapeHtml(value = '') { return String(value).replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c])); }
 function parseFrontmatter(raw, file) {

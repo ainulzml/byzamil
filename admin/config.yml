@@ -1,13 +1,11 @@
-# Decap CMS — byzamil
-# Auth uses the Netlify OAuth provider for GitHub. This is NOT Git Gateway.
+# Decap CMS — byzamil (Cloudflare Pages)
 backend:
   name: github
   repo: ainulzml/byzamil
   branch: main
-  base_url: https://api.netlify.com
+  base_url: https://byzamil-oauth.REPLACE.workers.dev
   auth_endpoint: auth
 
-# CMS publishes directly to the production branch after login.
 media_folder: "public/uploads"
 public_folder: "/uploads"
 site_url: https://byzamil.web.id
