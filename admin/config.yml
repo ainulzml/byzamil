@@ -3,7 +3,7 @@ backend:
   name: github
   repo: ainulzml/byzamil
   branch: main
-  base_url: https://byzamil-oauth.REPLACE.workers.dev
+  base_url: https://byzamil-oauth.ainulzml.workers.dev
   auth_endpoint: auth
 
 media_folder: "public/uploads"
